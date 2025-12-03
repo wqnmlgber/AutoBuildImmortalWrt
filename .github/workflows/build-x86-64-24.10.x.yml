@@ -26,12 +26,12 @@ on:
         description: "集成 store 商店"
         required: false
         type: boolean
-        default: true
+        default: false
       include_docker:
         description: |
           是否编译 Docker 插件
         required: true
-        default: 'yes'
+        default: 'false'
         type: choice
         options:
           - 'yes'
